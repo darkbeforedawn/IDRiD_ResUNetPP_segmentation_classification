@@ -9,7 +9,7 @@ The following plot demonstrates the model's performance on a test fundus image, 
 ---
 
 ## 🏗️ Architecture Overview
-The model is designed to handle the inherent class imbalance and ordinal nature of medical grading:
+The model is designed to handle the inherent class imbalance and ordinal nature of medical grading, and uses a **Hydra-Net** structure:
 
 * **Backbone:** ResNet-based Feature Extractor (supports R18 through R152).
 * **Segmentation Branch:** * **ASPP (Atrous Spatial Pyramid Pooling):** Captures multi-scale context for varying lesion sizes.
